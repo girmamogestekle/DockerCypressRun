@@ -1,0 +1,20 @@
+{
+  "name": "docker-cypress-run",
+  "version": "1.0.0",
+  "description": "Setup docker container for Cypress test runner that executes tests from within a cron job",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "author": "Girma Moges Teklemariam",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.2"
+  },
+  "dependencies": {
+    "cypress": "13.7.2",
+    "dotenv": "^16.4.7"
+  }
+}
